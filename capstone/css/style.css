@@ -1,0 +1,60 @@
+/*styling of the hover color for the nav-link */
+.nav-link:hover{
+    color:purple;
+}
+/*styling of the navbar text color */
+.navColor{
+  color:gray;
+}
+/*styling of the background for all pages*/
+.bgForAllPages,
+.offcanvas-body,
+.offcanvas-header,
+.modal-body,
+.modal-header,
+.modal-footer{
+  background:linear-gradient(115deg, coral, purple, teal, gold);
+}
+/*styling of the h1 for home and candle page*/
+.h1Home,
+.h1ForCandles,
+.h1ForContact{
+  color: white;
+  font-family: Papyrus;
+  text-shadow: 1px 1px 2px black;
+}
+/*styling of the h4 for title of the candles and the color and font family and text shadow*/
+.h4ForTitleOfCandles{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: teal;
+}
+/*styling for the ptag on the candle cards for that price tag*/
+.pTagForPrice{
+  color: purple;
+}
+/*styling for the qty on the candle cards*/
+.qty{
+  color: coral;
+}
+/*styling for all the color of other text through out this website*/
+.colorForOtherText{
+  color:white;
+  text-shadow: 1px 0px 0px black;
+}
+/*styling of the font size on the table on my offcanvas for shopping cart*/
+.tdFontSize,
+.fontSizeOnTable{
+  font-size: 1em;
+}
+/*styling of the text when you hit the remove button on the shopping cart and all the other text that has textshadow on it*/
+.removeText,
+.tableText,
+.textShadow,
+.sans-serifFont{
+  font-family: 'Times New Roman', Times, serif;
+  text-shadow: 1px 1px 2px black;
+}
+/* styling of the ptag underneath the tablebody of the shopping cart when it gives u instructions o how to add items to the cart once its already been placed in the cart */
+.pTagSize{
+  font-size: 13px;
+}
